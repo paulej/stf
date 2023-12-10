@@ -1,0 +1,21 @@
+/*
+ *  version.h
+ *
+ *  Copyright (C) 2023
+ *  Paul E. Jones <paulej@packetizer.com>
+ *  All Rights Reserved
+ *
+ *  Description:
+ *      Defines version information strings that will be built into the
+ *      binary project file.
+ *
+ *  Portability Issues:
+ *      None.
+ */
+
+#pragma once
+
+#include <string>
+
+static const std::string Project_Name = "@PROJECT_NAME@";
+static const std::string Project_Version = "@PROJECT_VERSION@";

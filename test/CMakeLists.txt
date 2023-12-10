@@ -1,0 +1,8 @@
+add_subdirectory(adapters)
+add_subdirectory(dissimilar_types)
+add_subdirectory(exceptions)
+add_subdirectory(floats)
+add_subdirectory(integrals)
+add_subdirectory(memory)
+add_subdirectory(miscellaneous)
+add_subdirectory(objects)
