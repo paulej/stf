@@ -181,7 +181,8 @@ if(NOT stf_FOUND)
 
     FetchContent_Declare(stf
         GIT_REPOSITORY https://github.com/paulej/stf.git
-        GIT_TAG        master)
+        GIT_TAG        master
+        GIT_SHALLOW    true)
     FetchContent_MakeAvailable(stf)
 endif()
 ```
